@@ -1,4 +1,37 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0 auto;
+}
+
+label {
+	text-align: left;
+}
+
+input {
+	margin: 5px 0 20px 0;
+	padding: 5px 0 5px 5px;
+	border-radius: 4px;
+	border: 0.5px solid lightgrey;
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 0;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: rgb(126, 231, 126);
 }
